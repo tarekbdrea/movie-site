@@ -130,3 +130,9 @@ body {
   height: 24px;
   background: var(--border);
 }
+/* כפתור "הצג עוד" באמצע, מתחת לרשימה */
+.more {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
