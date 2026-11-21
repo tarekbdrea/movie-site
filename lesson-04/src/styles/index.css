@@ -116,3 +116,17 @@ body {
 .movie-list + .toolbar {
   margin-top: 48px;
 }
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+/* קו מפריד בין קבוצות של כפתורים */
+.toolbar__divider {
+  width: 1px;
+  height: 24px;
+  background: var(--border);
+}
